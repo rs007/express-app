@@ -7,7 +7,7 @@ app.get('/', (req, res)=>{
 	res.send('Hello world...');
 });
 
-app.get('/user', (req, res)=>{
+app.get('/users', (req, res)=>{
 	res.status(200).send({
 		message:"User endpoint....",
 	})
